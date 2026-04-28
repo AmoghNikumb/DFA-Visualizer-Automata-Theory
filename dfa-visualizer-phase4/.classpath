@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="build/resources/test" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="resource" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/test" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/resources/main" path="src/main/resources">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="resource" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/main" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/test" path="build/generated/sources/annotationProcessor/java/test">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="build/classes/java/main" path="build/generated/sources/annotationProcessor/java/main">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/17.0.14/7708376489abc90ccd101099ab4a927fd6cbc4ba/javafx-fxml-17.0.14-win.jar" sourcepath="C:/Users/ADMIN/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/17.0.14/6efeeac714fc447bd60878a8f7ea71b5fc6c144f/javafx-fxml-17.0.14-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="groupId" value="org.openjfx"/>
+			<attribute name="artifactId" value="javafx-fxml"/>
+			<attribute name="version" value="17.0.14"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/17.0.14/2d85dd1c4ed8206dae3749f167e6f43d4bb925d5/javafx-base-17.0.14-win.jar" sourcepath="C:/Users/ADMIN/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-base/17.0.14/f3670ffb29e9da200cb651fcdb6d1986e6074786/javafx-base-17.0.14-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="groupId" value="org.openjfx"/>
+			<attribute name="artifactId" value="javafx-base"/>
+			<attribute name="version" value="17.0.14"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/17.0.14/4f908540bb844bbc62be5d998ea26782c79d9beb/javafx-graphics-17.0.14-win.jar" sourcepath="C:/Users/ADMIN/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-graphics/17.0.14/3adb2254390c5e62236c18e95eea17bb68649ee6/javafx-graphics-17.0.14-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="groupId" value="org.openjfx"/>
+			<attribute name="artifactId" value="javafx-graphics"/>
+			<attribute name="version" value="17.0.14"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ADMIN/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/17.0.14/772e2fc6d553a5c9f364ef582959100c749c1668/javafx-controls-17.0.14-win.jar" sourcepath="C:/Users/ADMIN/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/17.0.14/217a859c78d24419bd991654c158fef1aec7440/javafx-controls-17.0.14-sources.jar">
+		<attributes>
+			<attribute name="gradle.buildServer" value="true"/>
+			<attribute name="groupId" value="org.openjfx"/>
+			<attribute name="artifactId" value="javafx-controls"/>
+			<attribute name="version" value="17.0.14"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="out-cli"/>
+</classpath>

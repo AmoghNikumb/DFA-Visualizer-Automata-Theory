@@ -1,0 +1,65 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.1.0'
+}
+
+group = 'dfa.visualizer'
+version = '4.0'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies {
+    implementation 'org.openjfx:javafx-controls:17.0.14'
+    implementation 'org.openjfx:javafx-fxml:17.0.14'
+    implementation 'org.openjfx:javafx-graphics:17.0.14'
+}
+
+javafx {
+    version = '17.0.14'
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.graphics']
+}
+
+application {
+    mainClass = 'ui.MainApp'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+task runUI(type: JavaExec) {
+    group = 'application'
+    description = 'Run the DFA Visualizer UI'
+    mainClass = 'ui.MainApp'
+    classpath = sourceSets.main.runtimeClasspath
+    modularity.inferModulePath = true
+}
+
+task runPhase1Test(type: JavaExec) {
+    group = 'verification'
+    description = 'Run Phase 1 tests'
+    mainClass = 'Phase1Test'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task runPhase2Test(type: JavaExec) {
+    group = 'verification'
+    description = 'Run Phase 2 tests'
+    mainClass = 'Phase2Test'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task runTestEvenOdd(type: JavaExec) {
+    group = 'verification'
+    description = 'Run EvenOdd tests'
+    mainClass = 'TestEvenOdd'
+    classpath = sourceSets.main.runtimeClasspath
+}

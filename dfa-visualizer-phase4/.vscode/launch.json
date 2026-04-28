@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch MainApp (JavaFX)",
+            "type": "java",
+            "name": "Launch MainApp",
+            "request": "launch",
+            "mainClass": "ui.MainApp",
+            "projectName": "dfa-visualizer-phase4",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "--module-path C:\\Users\\ADMIN\\Downloads\\openjfx-17.0.14_windows-x64_bin-sdk\\javafx-sdk-17.0.14\\lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "name": "Run Phase1Test",
+            "type": "java",
+            "name": "Phase1Test",
+            "request": "launch",
+            "mainClass": "Phase1Test",
+            "projectName": "dfa-visualizer-phase4",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run Phase2Test",
+            "type": "java",
+            "name": "Phase2Test",
+            "request": "launch",
+            "mainClass": "Phase2Test",
+            "projectName": "dfa-visualizer-phase4",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run TestEvenOdd",
+            "type": "java",
+            "name": "TestEvenOdd",
+            "request": "launch",
+            "mainClass": "TestEvenOdd",
+            "projectName": "dfa-visualizer-phase4",
+            "cwd": "${workspaceFolder}"
+        }
+    ],
+    "compounds": []
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>dfa-visualizer-phase4</name>
+	<comment>DFA Visualizer — JavaFX-based Deterministic Finite Automaton Visualizer with smart layouts</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<filteredResources>
+		<filter>
+			<id>1714398000000</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-node_modules</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1777404232432</id>
+			<name></name>
+			<type>30</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
